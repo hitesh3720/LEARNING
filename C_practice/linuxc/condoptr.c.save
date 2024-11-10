@@ -1,0 +1,19 @@
+
+<stdio.h>
+int main()
+{
+int a,b,c,d;
+printf("enter four nos. to check which one is greater :\n");
+scanf("%d\n%d\n%d\n%d",&a,&b,&c,&d);
+a>b && c>d ?
+	 printf(" %d is greatest\n",a)
+	:
+	 b>c && b>d ?
+		 printf(" %d is greatest\n",b)
+		:
+		 c>d ?
+		 	 printf("%d is greatest\n",c)
+			:
+			 printf(" %d is greatest\n",d);
+return 0; 
+}
