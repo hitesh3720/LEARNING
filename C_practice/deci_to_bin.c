@@ -14,10 +14,10 @@ while(key)
     arr[i]=rem;
     i++;
 }
- for(int j=i-1;j>=0;j--)
- {
+for(int j=i-1;j>=0;j--)
+{
     printf(" %d",arr[j]);
- }
- printf("\n");
+}
+printf("\n");
 return 0;
 }
